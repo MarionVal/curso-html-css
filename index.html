@@ -9,13 +9,15 @@
 
         <a href="https://www.freecodecamp.org/espanol" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda"></a>
         
+        <hr>
+        
         <h3>Listas de Gatos</h3>
 
         <P>Cosas que los gatos aman:</P>
         <ul>
           <li>Menta gatuna</li>
           <li>Apuntadores Láser</li>
-          <li>Lasaña</li>
+          <li><s>Lasaña</s></li>
         </ul>
         <img src="Lasagna.jpg"
 
@@ -26,6 +28,14 @@
           <li>Otros gatos</li>
         </ol>
         <img src="gatos.jpg">
+
+        <form action="/enviar-respuesta">
+          <label for="interior"><input id="interior" type="radio">Interior</label>
+          <label for="exterior"><input id="exterior" type="radio">Exterior</label>
+
+          <input type="text" placeholder="URL de la foto de tu gato" required>
+          <button type="submit">enviar</button>
+        </form>
 
       </main>
   </body>
